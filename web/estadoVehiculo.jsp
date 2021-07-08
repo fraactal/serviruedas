@@ -1,18 +1,17 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
- <head>
-     
-         <title>Administrar</title>
-          <link rel="shortcut icon" href="images/iconos/icono.ico">
+<%-- 
+    Document   : final
+    Created on : 14-06-2021, 23:12:18
+    Author     : Fractal
+--%>
 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<html>
+    <head>
+         <title>&nbsp;</title>
+         <link rel="shortcut icon" href="images/iconos/icono.ico">
         <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -62,7 +61,7 @@ and open the template in the editor.
            <li class = "divider"></li>
          <li><a href = "productos.jsp">Frenos</a></li>
          <li class = "divider"></li>
-         <li><a href = "productos.jsp">Y mucho más<span class = "badge"></span></a></li>
+         <li><a href = "productos.jsp">Y mucho mÃ¡s<span class = "badge"></span></a></li>
       </ul>
       
      
@@ -80,7 +79,7 @@ and open the template in the editor.
         <li><a class="no-select">     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
-            <li  class="right"><a href="iniciarSesion.jsp">Iniciar Sesión</a></li>
+            <li  class="right"><a href="iniciarSesion.jsp">Iniciar SesiÃ³n</a></li>
               <li class="right"><a href="contacto.jsp">Contacto</a></li>
               
               
@@ -89,46 +88,24 @@ and open the template in the editor.
     
     </div>
           </div>
-       </nav>
-        
-        
-        
-         <div class="section "  style="background-image:url('images/f1.png')"></br></br></br></br></br>
-        
-             <div class="container" style="background: #26a69a "  >
-             <table class="white-text" >
-        <thead style="margin: 10px">
-          <tr style="margin: 10px">
-              <th style="font-size: 30px;font: ">¿Que trámite desea hacer?</th>
-              <th></th>
-              <th></th>
-          </tr>
-        </thead>
+       </nav></br></br></br></br></br>
+       
+       <h4 style="margin :10px;">Estado Vehiculo</h4>
+       <h4 style="margin-left: 2rem; font-size: 1.1rem;">Estado: <%     %> </h4>
+       <div class="row">
+             <div class="input-field col s12">
+                 <a href="index.jsp"   
+                    <button class="btn waves-effect waves-light " type="submit" name="action" href="final.jsp" >Volver
+                        </a> <i class="material-icons right">send</i>
+                    </button>
+                   
+             </div>
+       </div>       
+       </br></br></br></br>      
+  
              
-        <tbody>
-          <tr>
-              <td style="font-size: 26px">Ingreso de Atención</td>
-            <td></td>
-            <td><a class="btn-floating btn-large pulse black"><i class="material-icons">arrow_downward</i></a></td>
-          </tr>
-          <tr>
-            <td style="font-size: 26px">Stock</td>
-            <td></td>
-            <td><a href="PDF" class="btn-floating btn-large pulse red"><i class="material-icons">arrow_downward</i></a></td>
-          </tr>
-          <tr>
-            <td style="font-size: 26px">Consulta de Atenciones</td>
-            <td></td>
-            <td><a class="btn-floating btn-large pulse yellow"><i class="material-icons ">arrow_downward</i></a></td>
-          </tr>
-        </tbody>
-      </table>
              
-             </div></br></br></br></br></br></br></br></br></br></br>
-             
-
-        
-           <!--footer-->
+   <!--footer-->
                 <footer class="page-footer deep-purple darken-4">
           <div class="container">
             <div class="row">
@@ -140,7 +117,7 @@ and open the template in the editor.
                      <h4 class="white-text">Horarios</h4></br>
                 <ul>
                     <li>Lunes a Viernes: 9:00 - 18:00 hrs</li></br>
-                    <li>Sábado</li>
+                    <li>SÃ¡bado</li>
                   <li>10:00 - 17:00 hrs</li>
                   <li><a  href=""><img src=""></a></li>
                 </ul>
@@ -161,23 +138,18 @@ and open the template in the editor.
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2021 Todos Los Derechos Reservados
+            Â© 2021 Todos Los Derechos Reservados
             <a class="grey-text text-lighten-4 right" href="<a href='https://pngtree.com/so/social-icons'>social-icons png from pngtree.com</a>">fuente de iconos aqui</a>
             </div>
           </div>
-        </footer></br></br></br></br></br></br>
-  </div>     
-       
+        </footer>
+   </br></br></br></br></br</br></br></br></br></br></br></br></br></br></br></br</br></br></br></br></br></br>
+    </div>
         
-        
-       <script>
-   $( document ).ready(function(){
-        $('.sidenav').sidenav();
-        $('.collapsible').collapsible();
-        $(".dropdown-trigger").dropdown({ hover: true });
-      });
-</script>    
-     
+             
+             
+        <script>  $('.tap-target').tapTarget('open');
+                     $('.tap-target').tapTarget('close');</script>
 <script>
    
       $(document).ready(function(){
@@ -192,7 +164,7 @@ function autoplay() {
     setTimeout(autoplay, 4500);
 }
         </script>
-        
+
         
     </body>
 </html>

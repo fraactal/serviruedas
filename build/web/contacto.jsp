@@ -54,7 +54,7 @@
          <li><a href = "servicios.jsp">Manejo de fugas</a></li>
          <li class = "divider"></li>
          <li><a href = "servicios.jsp">Arreglo de motor<span class = "badge"></span></a></li>
-      </ul>
+    </ul>
           <ul id = "dropdown" class = "dropdown-content" >
          <li><a href = "productos.jsp">Ruedas<span class = "badge"></span></a></li>
            <li class = "divider"></li>
@@ -63,7 +63,8 @@
          <li><a href = "productos.jsp">Frenos</a></li>
          <li class = "divider"></li>
          <li><a href = "productos.jsp">Y mucho más<span class = "badge"></span></a></li>
-      </ul>
+    </ul>
+      
       
      
        <!--inicio menu-->
@@ -149,11 +150,39 @@
   </div>
      
     </form>
-  </div>
-          
+  </div>        
           
       
     </li>
+    
+        <li>
+      <div class="collapsible-header red lighten-3"><i class="material-icons">format_list_numbered</i>Estado Vehiculo</div>
+      <div class="collapsible-body">
+          <div class="row">
+    <form class="col s12 validate" action="correo" method="POST" >
+      <div class="row">
+  
+        <div class="input-field col s12">
+          <input id="txtRut" name="txtRut" type="text" class="validate" required="" aria-required="true">
+          <label for="email2">Rut</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="txtPatente" name="txtPatente" name="text" type="text" class="validate" required="" aria-required="true">
+          <label for="example">Patente</label>
+        </div>
+        <div class="row">             
+            <button class="btn waves-effect waves-light validate" type="submit" name="validate" value="EstadoVehiculo">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </div>             
+      </div>
+     
+    </form>
+  </div>        
+          
+      
+    </li>
+    
    
   </ul>
       

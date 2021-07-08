@@ -41,8 +41,6 @@
   <li><a href="#!">three</a></li>
 </ul>  
       
-   
-     
     <ul id = "dropdown2" class = "dropdown-content" >
          <li><a href = "servicios.jsp">Cambios de aceite<span class = "badge"></span></a></li>
            <li class = "divider"></li>
@@ -51,7 +49,7 @@
          <li><a href = "servicios.jsp">Manejo de fugas</a></li>
          <li class = "divider"></li>
          <li><a href = "servicios.jsp">Arreglo de motor<span class = "badge"></span></a></li>
-      </ul>
+    </ul>
           <ul id = "dropdown" class = "dropdown-content" >
          <li><a href = "productos.jsp">Ruedas<span class = "badge"></span></a></li>
            <li class = "divider"></li>
@@ -60,7 +58,7 @@
          <li><a href = "productos.jsp">Frenos</a></li>
          <li class = "divider"></li>
          <li><a href = "productos.jsp">Y mucho más<span class = "badge"></span></a></li>
-      </ul>
+    </ul>
       
      
        <!--inicio menu-->

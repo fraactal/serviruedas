@@ -114,17 +114,12 @@ and open the template in the editor.
           <tr>
             <td style="font-size: 26px">Stock</td>
             <td></td>
-            <td><a class="btn-floating btn-large pulse red"><i class="material-icons">arrow_downward</i></a></td>
+            <td><a href="PDF" class="btn-floating btn-large pulse red"><i class="material-icons">arrow_downward</i></a></td>
           </tr>
           <tr>
             <td style="font-size: 26px">Consulta de Atenciones</td>
             <td></td>
             <td><a class="btn-floating btn-large pulse yellow"><i class="material-icons ">arrow_downward</i></a></td>
-          </tr>
-          <tr>
-            <td style="font-size: 26px">Consulta Estado Vehículo</td>
-            <td></td>
-            <td><a class="btn-floating btn-large pulse green"><i class="material-icons ">arrow_downward</i></a></td>
           </tr>
         </tbody>
       </table>

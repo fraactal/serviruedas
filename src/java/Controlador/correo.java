@@ -135,6 +135,17 @@ public class correo extends HttpServlet {
               vista.forward(request, response);
         }
         
+    
+        if(action.equalsIgnoreCase("EstadoVehiculo")){
+            
+            String nombre = request.getParameter("txtRut");
+            String apellido = request.getParameter("txtPatente");
+            
+            contacto="estadoVehiculo.jsp";
+            RequestDispatcher vista=request.getRequestDispatcher(contacto);
+            vista.forward(request, response);
+        }
+        
     }
 
     @Override
